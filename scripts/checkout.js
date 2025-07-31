@@ -108,6 +108,5 @@ document.querySelectorAll(".js-delete-link").forEach((link) => {
         .js-cart-item-container-${productId}
         `);
     container.remove();
-    console.log(container);
   });
 });
