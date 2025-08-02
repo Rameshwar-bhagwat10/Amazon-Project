@@ -13,5 +13,5 @@ describe("Order Summary Rendering", () => {
     expect(orderSummaryElement).toBeDefined();
     expect(orderSummaryElement.querySelectorAll('.cart-item').length).toBe(2);
     expect(orderSummaryElement.querySelector('.total').textContent).toContain('Total: $35.00');
-  })
-})
+  });
+});
