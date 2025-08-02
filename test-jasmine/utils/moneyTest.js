@@ -1,4 +1,4 @@
-import { formatCurrency } from "../scripts/utils/money.js";
+import { formatCurrency } from "../../scripts/utils/money.js";
 
 // Test cases for formatCurrency function
 describe("format currency tests", () => {
